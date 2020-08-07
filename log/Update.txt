@@ -1,0 +1,3 @@
+08/05/2020：
+  - FTI Count Debug
+  - replaced "leaflet-search.css" and "leaflet-search.js" from FTI_AADT_2019 folder. Old files were invalid.
