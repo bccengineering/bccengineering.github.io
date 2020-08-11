@@ -36,8 +36,9 @@
 			display: flex;
 		}
 		#search-bar {
-			float: right;
-			margin: 80px 600px 20px 20px;
+			position: absolute;
+			top: 80px;
+			left: 100px;
 		}
 		#map {
 			position: absolute;
