@@ -32,6 +32,8 @@ function ReturnData_Val(data,i)
 function returnTAZ () {	  	
 	TAZ_Number = document.getElementById("mySearch").value;
 	Post_Flow_Map(TAZ_Number);
+	var myfromCoord = geoCoordMap['TAZ'+TAZ_Number];
+   	map.setView([myfromCoord[1], myfromCoord[0]],9)
 }
 		
 function Post_Flow_Map(TAZ_Number) {
