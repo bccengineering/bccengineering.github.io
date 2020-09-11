@@ -10,7 +10,7 @@
     <title>TBRTA Data Visualization Tools</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
   </head>
 
@@ -19,8 +19,8 @@
     <header>
       <div class="navbar navbar-dark bg-dark box-shadow">
         <div class="container d-flex justify-content-between">
-          <a href="./index.html" class="navbar-brand d-flex align-items-center">
-            <img src="./images/logo/BCC-2018-Logo_Reverse.png" width = "35" height="40">
+          <a href="../index.html" class="navbar-brand d-flex align-items-center">
+            <img src="../images/logo/BCC-2018-Logo_Reverse.png" width = "35" height="40">
             <svg width="10" height="40" fill="none"></svg>
             <strong>Home</strong>
           </a>
@@ -33,31 +33,32 @@
       <section class="jumbotron text-center">
         <div class="container">
           <h1 class="jumbotron-heading">TBRTA - Data Visualization Tool</h1>
-          <p class="lead text-muted">External Trips of TBHTS</p>
+          <p class="lead text-muted">External Trips of TBHTS - Passive OD</p>
           <!--p>
             <a href="#" class="btn btn-primary my-2">Main call to action</a>
             <a href="#" class="btn btn-secondary my-2">Secondary action</a>
           </p-->
-          <img src="images/logo/BCC-2018-Logo_spot.png" width="120" height="142.5">
+          <img src="../images/logo/BCC-2018-Logo_spot.png" width="120" height="142.5">
         </div>
       </section>
 
       <div class="album py-5 bg-light">
         <div class="container">
 
-          <div class="row justify-content-center">
+          <div class="row">
 
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-  
+                <!--img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap"-->
                 <div class="card-body">
-                  <p class="card-text">Top 10 Destination in TBRPM</p>
+                  <p class="card-text">Top 10 Destination - Total OD</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <a href="./html/External/Top 10 Des_TBRPM.html">
+                      <a href="./External/Top 10 Des_UpdatedOD.html">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                       </a>
                     </div>
+                    <!--small class="text-muted">9 mins</small-->
                   </div>
                 </div>
               </div>
@@ -65,16 +66,28 @@
 
             <div class="col-md-4">
               <div class="card mb-4 box-shadow">
-                <!--img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap"-->
                 <div class="card-body">
-                  <p class="card-text">Top 10 Destination - Passive OD</p>
+                  <p class="card-text">Top 10 Destination - Residents OD</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <a href="./html/passive_index.html">
+                      <a href = "./External/Top 10 Des_Residents.html">
                       <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
                       </a>
                     </div>
-                    <!--small class="text-muted">9 mins</small-->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <div class="card-body">
+                  <p class="card-text">Top 10 Destination - Visitors OD</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href = "./External/Top 10 Des_Visitors.html">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -101,8 +114,8 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/holder.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/holder.min.js"></script>
   </body>
 </html>
